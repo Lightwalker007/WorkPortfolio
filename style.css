@@ -251,6 +251,62 @@ body {
     gap: 1.5rem;
     position: relative;
     padding-top: 2rem;
+    margin-bottom: 4rem; /* Add spacing before detailed box */
+}
+
+/* Detailed Panels */
+.panel-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 4rem;
+    background: #fff;
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    margin-top: 2rem;
+    animation: fadeIn 0.4s ease-out 0.2s backwards; /* Slight delay */
+}
+
+.panel-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-main);
+    letter-spacing: -0.02em;
+}
+
+.lead {
+    font-size: 1.05rem;
+    color: var(--text-dim);
+    margin-bottom: 2rem;
+}
+
+.feature-list {
+    list-style: none;
+}
+
+.feature-list li {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+    position: relative;
+    color: var(--text-main);
+    font-size: 0.95rem;
+}
+
+.feature-list li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+    font-weight: bold;
+}
+
+.panel-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-left: 1px solid var(--border);
+    padding-left: 2rem;
 }
 
 /* Connecting Line */
