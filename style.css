@@ -251,7 +251,8 @@ body {
     gap: 1.5rem;
     position: relative;
     padding-top: 2rem;
-    margin-bottom: 4rem; /* Add spacing before detailed box */
+    margin-bottom: 4rem;
+    /* Add spacing before detailed box */
 }
 
 /* Detailed Panels */
@@ -265,7 +266,8 @@ body {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
     border: 1px solid rgba(0, 0, 0, 0.03);
     margin-top: 2rem;
-    animation: fadeIn 0.4s ease-out 0.2s backwards; /* Slight delay */
+    animation: fadeIn 0.4s ease-out 0.2s backwards;
+    /* Slight delay */
 }
 
 .panel-info h3 {
